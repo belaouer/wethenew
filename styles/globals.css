@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dot {
+  border-radius: 0% !important;
+  width: 40px !important;
+  margin: 0 !important;
+  height: 4px !important;
+  background: #333 !important;
+  opacity: 0.4 !important;
+}
+.dot.selected {
+  background: #333 !important;
+  opacity: 1 !important;
+}

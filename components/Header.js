@@ -7,15 +7,18 @@ import {
 } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../assets/images/Logo.webp";
+
 const Header = () => {
   return (
-    <header className='flex flex-col'>
+    <header className='flex flex-col z-20'>
       <div className='flex justify-between item-center  mx-auto py-3 w-full'>
         <Link href='/'>
-          <Image src={Logo} width={200} height={60} objectFit='cover' />
+          <img
+            src='Logo.webp'
+            className='h-16 w-52 object-cover cursor-pointer'
+          />
         </Link>
-        <div className='hidden lg:inline-flex w-[45%] h-11 m-auto items-center rounded-lg border'>
+        <div className='hidden lg:inline-flex w-[45%] h-11 m-auto items-center rounded-md border'>
           <input
             type='text'
             placeholder='Rechercher un produit, une marque....'
@@ -24,21 +27,21 @@ const Header = () => {
           <MagnifyingGlassIcon className='h-9 text-gray-600 px-2' />
         </div>
         <div className='flex items-center space-x-8'>
-          <UserIcon className='h-10' />
-          <HeartIcon className='hidden sm:inline-flex h-10' />
-          <ShoppingBagIcon className='h-10' />
+          <UserIcon className='h-10 cursor-pointer' />
+          <HeartIcon className='hidden sm:inline-flex h-10 cursor-pointer' />
+          <ShoppingBagIcon className='h-10 cursor-pointer' />
           <span className='px-8 border-l'>
-            <Bars3Icon className='h-10 ' />
+            <Bars3Icon className='h-10  cursor-pointer' />
           </span>
         </div>
       </div>
-      <div className='flex  w-[90%] md:w-[50%] h-14 m-auto items-center rounded-lg border lg:hidden'>
+      <div className='flex  w-[90%] md:w-[50%] h-12 m-auto items-center rounded-md border border-gray-600 lg:hidden mb-4'>
         <input
           type='text'
           placeholder='Rechercher un produit, une marque....'
           className='border-none outline-none w-full h-full pl-4 rounded-tl-lg rounded-bl-lg'
         />
-        <MagnifyingGlassIcon className='h-9 text-gray-600 px-2' />
+        <MagnifyingGlassIcon className='h-9 text-gray-600 px-2 cursor-pointer' />
       </div>
     </header>
   );
