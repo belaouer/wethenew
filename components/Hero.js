@@ -14,6 +14,7 @@ const Hero = () => {
     <>
       <Carousel
         className='relative hidden lg:inline-block w-full h-full'
+        autoPlay
         infiniteLoop
         showStatus={false}
         renderArrowNext={(hasNext) => (
@@ -29,18 +30,38 @@ const Hero = () => {
           />
         )}>
         <div className='w-full h-[65vh] relative cursor-pointer'>
-          <Image src={Slide1} layout='fill' objectFit='cover' />
+          <Image
+            src={Slide1}
+            layout='fill'
+            objectFit='cover'
+            alt='image slider'
+            priority
+          />
         </div>
         <div className='w-full h-[65vh] relative cursor-pointer'>
-          <Image src={Slide2} layout='fill' objectFit='cover' />
+          <Image
+            src={Slide2}
+            layout='fill'
+            objectFit='cover'
+            alt='image slider'
+            priority
+          />
         </div>
         <div className=' w-full h-[65vh] relative cursor-pointer'>
-          <Image src={Slide3} layout='fill' objectFit='cover' />
+          <Image
+            src={Slide3}
+            layout='fill'
+            objectFit='cover'
+            alt='image slider'
+            priority
+          />
         </div>
       </Carousel>
       <Carousel
         className='lg:hidden'
         infiniteLoop
+        autoPlay
+        autoFocus
         showStatus={false}
         showIndicators={false}
         renderArrowNext={(hasNext) => (
@@ -56,13 +77,31 @@ const Hero = () => {
           />
         )}>
         <div className='w-full h-[45vh] sm:h-[60vh] md:h-[75vh] relative cursor-pointer'>
-          <Image src={Slide11} layout='fill' objectFit='cover' />
+          <Image
+            src={Slide11}
+            layout='fill'
+            objectFit='cover'
+            alt='image slider'
+            priority
+          />
         </div>
         <div className='w-full h-[45vh] sm:h-[60vh] md:h-[75vh] relative cursor-pointer'>
-          <Image src={Slide22} layout='fill' objectFit='cover' />
+          <Image
+            src={Slide22}
+            layout='fill'
+            objectFit='cover'
+            alt='image slider'
+            priority
+          />
         </div>
         <div className='w-full h-[45vh] sm:min-h-[60vh] md:h-[75vh] relative cursor-pointer'>
-          <Image src={Slide33} layout='fill' objectFit='cover' />
+          <Image
+            src={Slide33}
+            layout='fill'
+            objectFit='cover'
+            alt='image slider'
+            priority
+          />
         </div>
       </Carousel>
     </>
