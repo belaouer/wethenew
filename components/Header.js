@@ -19,11 +19,11 @@ const Header = () => {
             alt='logo'
           />
         </Link>
-        <div className='hidden lg:inline-flex w-[45%] h-11 m-auto items-center rounded-md border'>
+        <div className='hidden lg:inline-flex w-[45%] h-11 m-auto items-center rounded-md border border-[#D8D8D8]'>
           <input
             type='text'
             placeholder='Rechercher un produit, une marque....'
-            className='border-none outline-none w-full h-full pl-4 rounded-tl-lg rounded-bl-lg'
+            className='border-none outline-none w-full h-full pl-4 rounded-tl-lg rounded-bl-lg placeholder:text-xl'
           />
           <MagnifyingGlassIcon className='h-9 text-gray-600 px-2' />
         </div>
@@ -40,7 +40,7 @@ const Header = () => {
         <input
           type='text'
           placeholder='Rechercher un produit, une marque....'
-          className='border-none outline-none w-full h-full pl-4 rounded-tl-lg rounded-bl-lg'
+          className='border-none outline-none w-full h-full pl-4 rounded-tl-lg rounded-bl-lg placeholder:text-xl'
         />
         <MagnifyingGlassIcon className='h-9 text-gray-600 px-2 cursor-pointer' />
       </div>
