@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import Collections from "../components/Collections";
 import Categories from "../components/Categories";
 import MemoriesSection from "../components/MemoriesSection";
+import Brands from "../components/Brands";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Collections />
       <Categories />
       <MemoriesSection />
+      <Brands />
     </div>
   );
 }

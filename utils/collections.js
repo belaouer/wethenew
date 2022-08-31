@@ -55,7 +55,7 @@ const categories = [
   { id: "nouveautes", title: "Nouveauté", allSelection: "Voir la sélection" },
   {
     id: "air-jordan-a-mid",
-    title: "AIr Jordan 1 Mid",
+    title: "Air Jordan 1 Mid",
     allSelection: "Voir la sélection",
   },
   { id: "nike-dunk", title: "Nike Dunk", allSelection: "Voir la sélection" },
@@ -66,4 +66,11 @@ const categories = [
   },
 ];
 
-export { collections, carouselItems, categories };
+const brands = [
+  { id: "air-jordan", title: "Air Jordan" },
+  { id: "nike", title: "Nike" },
+  { id: "Yeezy", title: "Yeezy" },
+  { id: "new-balance", title: "New Balance" },
+];
+
+export { collections, carouselItems, categories, brands };
