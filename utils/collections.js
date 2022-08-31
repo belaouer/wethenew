@@ -69,7 +69,7 @@ const categories = [
 const brands = [
   { id: "air-jordan", title: "Air Jordan" },
   { id: "nike", title: "Nike" },
-  { id: "Yeezy", title: "Yeezy" },
+  { id: "yeezy", title: "Yeezy" },
   { id: "new-balance", title: "New Balance" },
 ];
 
