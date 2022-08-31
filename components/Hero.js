@@ -5,7 +5,7 @@ import Slide1 from "../assets/images/Make-memories-desktop.webp";
 import Slide2 from "../assets/images/Air_Max_1_Desktop.webp";
 import Slide3 from "../assets/images/Livraison-48h-desktop.webp";
 import Slide11 from "../assets/images/Make-memories-mobile.webp";
-import Slide22 from "../assets/images/Air_Max_1_Mobile.webp";
+import Slide22 from "../assets/images/Air_Max_1_mobile.webp";
 import Slide33 from "../assets/images/Livraison-48h-mobile.webp";
 import { ChevronRightIcon, ChevronLeftIcon } from "@heroicons/react/24/outline";
 

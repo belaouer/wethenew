@@ -85,7 +85,7 @@ const Category = ({ title, id }) => {
             title={item.title}
             brand={item.brand}
             price={item.price}
-            img={<img src={`${item.img}`} />}
+            img={<img src={`${item.img}`} alt='sneakers image' />}
           />
         ))}
       </Carousel>

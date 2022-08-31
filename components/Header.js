@@ -16,6 +16,7 @@ const Header = () => {
           <img
             src='Logo.webp'
             className='h-16 w-52 object-cover cursor-pointer'
+            alt='logo'
           />
         </Link>
         <div className='hidden lg:inline-flex w-[45%] h-11 m-auto items-center rounded-md border'>
@@ -35,7 +36,7 @@ const Header = () => {
           </span>
         </div>
       </div>
-      <div className='flex  w-[90%] md:w-[50%] h-12 m-auto items-center rounded-md border border-gray-600 lg:hidden mb-4'>
+      <div className='flex  w-[90%] md:w-[50%] h-12 m-auto items-center rounded-md border border-gray-600 lg:hidden mb-4 '>
         <input
           type='text'
           placeholder='Rechercher un produit, une marque....'
