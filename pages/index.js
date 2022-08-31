@@ -9,11 +9,6 @@ export default function Home() {
     <div>
       <Head>
         <title>Wethenew</title>
-        <meta
-          name='description'
-          content='Wethenew is website which allow you to find your sneakers with best price'
-        />
-        <html lang='fr'></html>
       </Head>
       <Hero />
       <Collections />
