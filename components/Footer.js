@@ -23,7 +23,7 @@ const Footer = () => {
                 </span>
               ))}
             </p>
-            <span className='flex items-center text-xl'>
+            <span className='flex items-center text-xl ml-3'>
               <StarIcon className='h-7 text-green-500 mr-1' /> Trustpilot
             </span>
           </div>
