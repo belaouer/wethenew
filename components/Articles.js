@@ -2,7 +2,7 @@ import Article from "./Article";
 import { articles } from "../utils/collections";
 const Articles = () => {
   return (
-    <div className='flex flex-col space-y-8 w-[62%] mx-auto font-[Poppins]'>
+    <div className='flex flex-col space-y-8 w-[80%] lg:w-[62%] mx-auto font-[Poppins] mb-14'>
       <div className='w-full flex justify-center border-b border-black border-dotted pb-4'>
         <h1 className='text-lg lg:text-xl font-[500]'>Le Blueprint</h1>
       </div>

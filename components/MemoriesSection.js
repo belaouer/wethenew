@@ -3,7 +3,7 @@ import MemoriesImg from "../assets/images/memories.jpeg";
 
 const MemoriesSection = () => {
   return (
-    <section className='w-full h-fit flex flex-col sm:flex-row mb-8 bg-red-300'>
+    <section className='w-full h-fit flex flex-col sm:flex-row mb-8'>
       <div className='relative w-full min-h-[50vh] flex-1 md:h-[60vh] lg:h-[80vh] xl:h-[100vh]'>
         <Image
           src={MemoriesImg}
