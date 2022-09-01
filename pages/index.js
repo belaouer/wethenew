@@ -6,6 +6,7 @@ import Categories from "../components/Categories";
 import MemoriesSection from "../components/MemoriesSection";
 import Brands from "../components/Brands";
 import Reviews from "../components/Reviews";
+import Articles from "../components/Articles";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <MemoriesSection />
       <Brands />
       <Reviews />
+      <Articles />
     </div>
   );
 }

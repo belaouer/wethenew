@@ -7,7 +7,7 @@ import { StarIcon } from "@heroicons/react/24/solid";
 
 const Reviews = () => {
   return (
-    <div className='px-8 mb-8 w-full flex flex-col space-y-3'>
+    <div className='px-8 mb-20 w-full flex flex-col space-y-3'>
       <Carousel
         autoPlaySpeed={3000}
         renderArrowsWhenDisabled={true}

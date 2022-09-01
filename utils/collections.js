@@ -138,4 +138,27 @@ const reviews = [
     commentDate: "16 mars",
   },
 ];
-export { collections, carouselItems, categories, brands, reviews };
+
+const articles = [
+  {
+    id: 1,
+    title:
+      "Après une sortie manquée sur Patta, la Air Max 1 White Grey ressort aujourd'hui",
+    text: "Une nouvelle vague de Air Max signée Patta.",
+    img: "article-1",
+  },
+  {
+    id: 2,
+    title: "Back to School : les essentiels de la rentrée",
+    text: "Tout ce qu'il vous faut pour la rentrée ! ",
+    img: "article-2",
+  },
+  {
+    id: 3,
+    title:
+      "Free Game : on a testé la plateforme de Virgil Abloh, voilà ce qu'on en retient",
+    text: "Un outil à destination de tous les jeunes entrepreneurs !",
+    img: "article-3",
+  },
+];
+export { collections, carouselItems, categories, brands, reviews, articles };
