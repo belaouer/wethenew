@@ -7,7 +7,7 @@ import { carouselItems } from "../utils/collections";
 
 const Category = ({ title, id, showAllSelection }) => {
   return (
-    <div className='font-[Poppins]'>
+    <div className='font-[Poppins] '>
       <div className='flex justify-between items-center'>
         <h1 className='text-2xl md:text-4xl '>{title}</h1>
         {showAllSelection && (
@@ -26,7 +26,6 @@ const Category = ({ title, id, showAllSelection }) => {
         autoPlaySpeed={3000}
         centerMode={false}
         className='z-50'
-        containerClass='container'
         dotListClass=''
         draggable
         focusOnSelect={false}
@@ -52,7 +51,7 @@ const Category = ({ title, id, showAllSelection }) => {
               max: 1280,
               min: 1024,
             },
-            items: 3,
+            items: 4,
             partialVisibilityGutter: 30,
           },
           mobile: {
@@ -72,21 +71,22 @@ const Category = ({ title, id, showAllSelection }) => {
             partialVisibilityGutter: 30,
           },
         }}
-        rewind={false}
-        rewindWithAnimation={false}
-        rtl={false}
         shouldResetAutoplay
         showDots={false}
-        sliderClass=''
-        slidesToSlide={1}
-        swipeable>
+        partialVisibilityGutter={true}>
         {carouselItems.map((item) => (
           <CarouselItem
             key={item.id}
             title={item.title}
             brand={item.brand}
             price={item.price}
-            img={<img src={`${item.img}`} alt='sneakers image' />}
+            img={
+              <img
+                src={`${item.img}`}
+                alt='sneakers image'
+                className='min-w-[195] min-h-[115] max-w-[460] max-h-[280]'
+              />
+            }
           />
         ))}
       </Carousel>
