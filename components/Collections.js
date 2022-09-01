@@ -3,7 +3,7 @@ import Collection from "./Collection";
 
 const Collections = () => {
   return (
-    <div className='flex justify-start xl:justify-center  w-[90%]   overflow-x-scroll mb-16 '>
+    <div className='flex justify-start xl:justify-center  w-[90%] mx-auto  overflow-x-scroll mb-16'>
       {collections.map((collection) => (
         <Collection
           key={collection.id}
