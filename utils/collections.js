@@ -76,7 +76,7 @@ const brands = [
 const reviews = [
   {
     id: 1,
-    numStars: 4,
+    numStars: 5,
     confirmed: true,
     title: "Très satisfaute de ma commande encore...",
     text: "Très satisfaute de ma commande encore une fois. Les délais sont respectés beaucoup d'.....",
@@ -85,7 +85,7 @@ const reviews = [
   },
   {
     id: 2,
-    numStars: 2,
+    numStars: 5,
     confirmed: true,
     title: "Très satisfaute de ma commande encore...",
     text: "Très satisfaute de ma commande encore une fois. Les délais sont respectés beaucoup d'.....",
@@ -94,7 +94,7 @@ const reviews = [
   },
   {
     id: 3,
-    numStars: 3,
+    numStars: 4,
     confirmed: false,
     title: "Très satisfaute de ma commande encore...",
     text: "Très satisfaute de ma commande encore une fois. Les délais sont respectés beaucoup d'.....",
@@ -112,7 +112,7 @@ const reviews = [
   },
   {
     id: 5,
-    numStars: 3,
+    numStars: 5,
     confirmed: true,
     title: "Très satisfaute de ma commande encore...",
     text: "Très satisfaute de ma commande encore une fois. Les délais sont respectés beaucoup d'.....",
@@ -121,7 +121,7 @@ const reviews = [
   },
   {
     id: 6,
-    numStars: 1,
+    numStars: 4,
     confirmed: false,
     title: "Très satisfaute de ma commande encore...",
     text: "Très satisfaute de ma commande encore une fois. Les délais sont respectés beaucoup d'.....",
@@ -130,7 +130,7 @@ const reviews = [
   },
   {
     id: 7,
-    numStars: 3,
+    numStars: 4,
     confirmed: true,
     title: "Très satisfaute de ma commande encore...",
     text: "Très satisfaute de ma commande encore une fois. Les délais sont respectés beaucoup d'.....",

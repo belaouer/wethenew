@@ -10,7 +10,7 @@ const Review = ({ numStars, confirmed, title, text, author, commentDate }) => {
     );
   }
   return (
-    <div className='bg-[#F8F8FA] p-4 flex flex-col justify-between space-y-3 h-[200px] mr-4'>
+    <div className='bg-[#F8F8FA] p-4 flex flex-col justify-between space-y-2 h-[200px] mr-4'>
       <div className='flex items-center space-x-4 '>
         <div className='flex items-center space-x-1'>{list}</div>
 
@@ -21,7 +21,7 @@ const Review = ({ numStars, confirmed, title, text, author, commentDate }) => {
           </span>
         )}
       </div>
-      <h1 className='text-lg font-semibold'>
+      <h1 className='text-lg font-semibold leading-4'>
         Très satisfait de ma commande encore...
       </h1>
       <p className='text-lg leading-5'>
