@@ -19,8 +19,9 @@ const Sidebar = ({ isOpen, handleClick }) => {
       initial={"initial"}
       animate={isOpen ? "open" : "closed"}
       transition={{ duration: 0.7, delayChildren: 2 }}
+      onClick={handleClick}
       className='absolute  top-0 bottom-0 z-[200] w-[100vw]   bg-white/[.7] flex justify-end'>
-      <div className='w-[80%] md:w-[40%] lg:w-[25%] bg-white fixed top-0 bottom-0'>
+      <div className='w-[80%] md:w-[40%] lg:w-[25%] bg-white fixed top-0 bottom-0 z-[400]'>
         <div className='flex items-center px-4 mb-12'>
           <XMarkIcon className='h-10 cursor-pointer' onClick={handleClick} />
           <Link href='/'>
