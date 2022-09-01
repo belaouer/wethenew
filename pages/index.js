@@ -5,6 +5,7 @@ import Collections from "../components/Collections";
 import Categories from "../components/Categories";
 import MemoriesSection from "../components/MemoriesSection";
 import Brands from "../components/Brands";
+import Reviews from "../components/Reviews";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Categories />
       <MemoriesSection />
       <Brands />
+      <Reviews />
     </div>
   );
 }

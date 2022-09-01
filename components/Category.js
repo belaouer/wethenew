@@ -2,10 +2,8 @@ import Link from "next/link";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { ChevronRightIcon, ChevronLeftIcon } from "@heroicons/react/24/outline";
 import CarouselItem from "./CarouselItem";
 import { carouselItems } from "../utils/collections";
-import Image from "next/image";
 
 const Category = ({ title, id }) => {
   return (

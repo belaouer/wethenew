@@ -73,4 +73,69 @@ const brands = [
   { id: "new-balance", title: "New Balance" },
 ];
 
-export { collections, carouselItems, categories, brands };
+const reviews = [
+  {
+    id: 1,
+    numStars: 4,
+    confirmed: true,
+    title: "Très satisfaute de ma commande encore...",
+    text: "Très satisfaute de ma commande encore une fois. Les délais sont respectés beaucoup d'.....",
+    author: "Maxim",
+    commentDate: "16 août",
+  },
+  {
+    id: 2,
+    numStars: 2,
+    confirmed: true,
+    title: "Très satisfaute de ma commande encore...",
+    text: "Très satisfaute de ma commande encore une fois. Les délais sont respectés beaucoup d'.....",
+    author: "Leo",
+    commentDate: "16 août",
+  },
+  {
+    id: 3,
+    numStars: 3,
+    confirmed: false,
+    title: "Très satisfaute de ma commande encore...",
+    text: "Très satisfaute de ma commande encore une fois. Les délais sont respectés beaucoup d'.....",
+    author: "Antoine",
+    commentDate: "16 août",
+  },
+  {
+    id: 4,
+    numStars: 4,
+    confirmed: true,
+    title: "Très satisfaute de ma commande encore...",
+    text: "Très satisfaute de ma commande encore une fois. Les délais sont respectés beaucoup d'.....",
+    author: "Malik",
+    commentDate: "16 août",
+  },
+  {
+    id: 5,
+    numStars: 3,
+    confirmed: true,
+    title: "Très satisfaute de ma commande encore...",
+    text: "Très satisfaute de ma commande encore une fois. Les délais sont respectés beaucoup d'.....",
+    author: "Ludo",
+    commentDate: "16 août",
+  },
+  {
+    id: 6,
+    numStars: 1,
+    confirmed: false,
+    title: "Très satisfaute de ma commande encore...",
+    text: "Très satisfaute de ma commande encore une fois. Les délais sont respectés beaucoup d'.....",
+    author: "Flore",
+    commentDate: "29 août",
+  },
+  {
+    id: 7,
+    numStars: 3,
+    confirmed: true,
+    title: "Très satisfaute de ma commande encore...",
+    text: "Très satisfaute de ma commande encore une fois. Les délais sont respectés beaucoup d'.....",
+    author: "Mohamed",
+    commentDate: "16 mars",
+  },
+];
+export { collections, carouselItems, categories, brands, reviews };
