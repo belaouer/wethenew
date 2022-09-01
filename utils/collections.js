@@ -161,4 +161,20 @@ const articles = [
     img: "article-3",
   },
 ];
-export { collections, carouselItems, categories, brands, reviews, articles };
+
+const cards = [
+  { id: 1, title: "Nos contacter", text: "Écrivez-nous : help@wethenew.com" },
+  { id: 2, title: "En savoir plus", text: "Concept" },
+  { id: 3, title: "Trouvez votre produit", text: "Rechrche" },
+  { id: 4, title: "Services", text: "Wethenew Family" },
+  { id: 5, title: "Devise", text: "EUR" },
+];
+export {
+  collections,
+  carouselItems,
+  categories,
+  brands,
+  reviews,
+  articles,
+  cards,
+};
