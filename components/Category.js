@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import CarouselItem from "./CarouselItem";
 import { carouselItems } from "../utils/collections";
+import { ChevronRightIcon, ChevronLeftIcon } from "@heroicons/react/24/outline";
 
 const Category = ({ title, id, showAllSelection }) => {
   return (
@@ -25,7 +26,7 @@ const Category = ({ title, id, showAllSelection }) => {
         arrows
         autoPlaySpeed={3000}
         centerMode={false}
-        className='z-50'
+        className='z-50 relative'
         dotListClass=''
         draggable
         focusOnSelect={false}
@@ -34,9 +35,13 @@ const Category = ({ title, id, showAllSelection }) => {
         keyBoardControl
         minimumTouchDrag={80}
         pauseOnHover
-        renderArrowsWhenDisabled={false}
-        renderButtonGroupOutside={false}
-        renderDotsOutside={false}
+        cu
+        customRightArrow={
+          <ChevronRightIcon className='absolute right-0 cursor-pointer z-[60] h-12' />
+        }
+        customLeftArrow={
+          <ChevronLeftIcon className='absolute left-0 cursor-pointer z-[60] h-12' />
+        }
         responsive={{
           desktopLarge: {
             breakpoint: {
