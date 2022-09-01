@@ -11,7 +11,7 @@ import { ChevronRightIcon, ChevronLeftIcon } from "@heroicons/react/24/outline";
 
 const Hero = () => {
   return (
-    <div className='mb-8'>
+    <div className='mb-8 lg:mb-0'>
       <Carousel
         className='relative hidden lg:inline-block w-full h-full'
         autoPlay
