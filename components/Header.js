@@ -28,9 +28,9 @@ const Header = ({ handleClick }) => {
           <MagnifyingGlassIcon className='h-9 text-gray-600 px-2' />
         </div>
         <div className='flex items-center space-x-8'>
-          <UserIcon className='h-10 cursor-pointer' />
-          <HeartIcon className='hidden sm:inline-flex h-10 cursor-pointer' />
-          <ShoppingBagIcon className='h-10 cursor-pointer' />
+          <UserIcon className='h-9 cursor-pointer' />
+          <HeartIcon className='hidden sm:inline-flex h-9 cursor-pointer' />
+          <ShoppingBagIcon className='h-9 cursor-pointer' />
           <span className='px-8 border-l' onClick={handleClick}>
             <Bars3Icon className='h-10  cursor-pointer' />
           </span>

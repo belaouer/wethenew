@@ -7,6 +7,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { motion } from "framer-motion";
 const variants = {
+  initial: { opacity: 0 },
   open: { opacity: 1, right: 0 },
   closed: { opacity: 0, right: "-100%" },
 };
@@ -15,13 +16,11 @@ const Sidebar = ({ isOpen, handleClick }) => {
   return (
     <motion.div
       variants={variants}
+      initial={"initial"}
       animate={isOpen ? "open" : "closed"}
-      transition={{ duration: 0.7, staggerChildren: 2, delayChildren: 2 }}
-      className={`absolute  top-0 bottom-0 z-[200] w-[100vw]   bg-white/[.7] flex justify-end  `}>
-      <div
-        className={
-          "w-[80%] md:w-[40%] lg:w-[25%] bg-white fixed top-0 bottom-0"
-        }>
+      transition={{ duration: 0.7, delayChildren: 2 }}
+      className='absolute  top-0 bottom-0 z-[200] w-[100vw]   bg-white/[.7] flex justify-end'>
+      <div className='w-[80%] md:w-[40%] lg:w-[25%] bg-white fixed top-0 bottom-0'>
         <div className='flex items-center px-4 mb-12'>
           <XMarkIcon className='h-10 cursor-pointer' onClick={handleClick} />
           <Link href='/'>

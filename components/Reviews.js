@@ -11,6 +11,7 @@ const Reviews = () => {
       <Carousel
         className='z-50'
         autoPlaySpeed={3000}
+        showThumbs={false}
         renderArrowsWhenDisabled={true}
         renderButtonGroupOutside={true}
         responsive={{

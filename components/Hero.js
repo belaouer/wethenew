@@ -63,6 +63,7 @@ const Hero = () => {
         autoPlay
         autoFocus
         showStatus={false}
+        showThumbs={false}
         showIndicators={false}
         renderArrowNext={(hasNext) => (
           <ChevronRightIcon
