@@ -22,20 +22,11 @@ const Category = ({ title, id, showAllSelection }) => {
       </div>
       <Carousel
         showThumbs={false}
-        additionalTransfrom={0}
-        arrows
         autoPlaySpeed={3000}
-        centerMode={false}
         className='z-50 relative'
-        dotListClass=''
-        draggable
         focusOnSelect={false}
-        infinite={false}
-        itemClass=''
-        keyBoardControl
-        minimumTouchDrag={80}
-        pauseOnHover
-        cu
+        renderArrowsWhenDisabled={true}
+        renderButtonGroupOutside={true}
         customRightArrow={
           <ChevronRightIcon className='absolute right-0 cursor-pointer z-[60] h-12' />
         }

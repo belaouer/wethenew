@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { reviews } from "../utils/collections";
 import { StarIcon } from "@heroicons/react/24/solid";
+import { ChevronRightIcon, ChevronLeftIcon } from "@heroicons/react/24/solid";
 
 const Reviews = () => {
   return (
@@ -14,6 +15,16 @@ const Reviews = () => {
         showThumbs={false}
         renderArrowsWhenDisabled={true}
         renderButtonGroupOutside={true}
+        customRightArrow={
+          <span className='absolute right-0  border-[1px] border-[#8c8c8c]  rounded-full '>
+            <ChevronRightIcon className='cursor-pointer z-[60] h-5 stroke-slate-600 text-[#8c8c8c]' />
+          </span>
+        }
+        customLeftArrow={
+          <span className='absolute left-0 border-[1px] border-[#8c8c8c]  rounded-full '>
+            <ChevronLeftIcon className=' cursor-pointer stroke-slate-600 z-[60] h-5 text-[#8c8c8c]' />
+          </span>
+        }
         responsive={{
           desktopLarge: {
             breakpoint: {
