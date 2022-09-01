@@ -9,6 +9,7 @@ const Reviews = () => {
   return (
     <div className='px-8 mb-20 w-full flex flex-col space-y-3'>
       <Carousel
+        className='z-50'
         autoPlaySpeed={3000}
         renderArrowsWhenDisabled={true}
         renderButtonGroupOutside={true}

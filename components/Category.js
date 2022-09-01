@@ -20,11 +20,12 @@ const Category = ({ title, id, showAllSelection }) => {
         )}
       </div>
       <Carousel
+        showThumbs={false}
         additionalTransfrom={0}
         arrows
         autoPlaySpeed={3000}
         centerMode={false}
-        className=''
+        className='z-50'
         containerClass='container'
         dotListClass=''
         draggable

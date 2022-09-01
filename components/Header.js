@@ -8,7 +8,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 
-const Header = () => {
+const Header = ({ handleClick }) => {
   return (
     <header className='flex flex-col z-20'>
       <div className='flex justify-between item-center  mx-auto py-3 w-full'>
@@ -31,7 +31,7 @@ const Header = () => {
           <UserIcon className='h-10 cursor-pointer' />
           <HeartIcon className='hidden sm:inline-flex h-10 cursor-pointer' />
           <ShoppingBagIcon className='h-10 cursor-pointer' />
-          <span className='px-8 border-l'>
+          <span className='px-8 border-l' onClick={handleClick}>
             <Bars3Icon className='h-10  cursor-pointer' />
           </span>
         </div>

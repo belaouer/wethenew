@@ -58,7 +58,7 @@ const Hero = () => {
         </div>
       </Carousel>
       <Carousel
-        className='lg:hidden'
+        className='lg:hidden z-50'
         infiniteLoop
         autoPlay
         autoFocus
