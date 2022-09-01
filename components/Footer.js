@@ -58,11 +58,26 @@ const Footer = () => {
         <div className='w-[80%] lg:w-[65%] absolute bottom-0 flex flex-col  items-center justify-start space-y-4 h-40 py-6 lg:pt-0 lg:flex-row lg:justify-between font-[Poppins] border-t border-[#C6C6C6]'>
           <p className='text-[#C6C6C6]  font-light ml-3'>© 2022 Whethenew</p>
           <div className='flex'>
-            <Image src={VisaImg} width={90} height={50} />
-            <Image src={MasterImg} width={90} height={50} />
-            <Image src={AppleImg} width={90} height={50} />
-            <Image src={KlarnaImg} width={90} height={50} />
-            <Image src={AmexImg} width={90} height={50} />
+            <Image src={VisaImg} width={90} height={50} alt='payment methode' />
+            <Image
+              src={MasterImg}
+              width={90}
+              height={50}
+              alt='payment methode'
+            />
+            <Image
+              src={AppleImg}
+              width={90}
+              height={50}
+              alt='payment methode'
+            />
+            <Image
+              src={KlarnaImg}
+              width={90}
+              height={50}
+              alt='payment methode'
+            />
+            <Image src={AmexImg} width={90} height={50} alt='payment methode' />
           </div>
         </div>
       </div>
