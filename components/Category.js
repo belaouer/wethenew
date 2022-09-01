@@ -5,17 +5,19 @@ import "react-multi-carousel/lib/styles.css";
 import CarouselItem from "./CarouselItem";
 import { carouselItems } from "../utils/collections";
 
-const Category = ({ title, id }) => {
+const Category = ({ title, id, showAllSelection }) => {
   return (
     <div className='font-[Poppins]'>
       <div className='flex justify-between items-center'>
         <h1 className='text-2xl md:text-4xl '>{title}</h1>
-        <Link href={`/collections/${id}`}>
-          <p className='flex items-center space-x-2 border-b border-black  cursor-pointer'>
-            Voir la sélection
-            <ArrowLongRightIcon className='h-5 ml-2 ' />
-          </p>
-        </Link>
+        {showAllSelection && (
+          <Link href={`/collections/${id}`}>
+            <p className='flex items-center space-x-2 border-b border-black  cursor-pointer'>
+              Voir la sélection
+              <ArrowLongRightIcon className='h-5 ml-2 ' />
+            </p>
+          </Link>
+        )}
       </div>
       <Carousel
         additionalTransfrom={0}

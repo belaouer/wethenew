@@ -2,8 +2,8 @@ import Image from "next/image";
 import OriginalProduct from "../assets/images/original-products.webp";
 const OriginalProducts = () => {
   return (
-    <section className='w-full h-fit flex flex-col sm:flex-row mb-8'>
-      <div className='relative w-full min-h-[50vh] flex-1 md:h-[60vh] lg:h-[80vh] '>
+    <section className='w-full h-fit flex flex-col sm:flex-row mb-16'>
+      <div className='relative w-full min-h-[50vh] flex-1 md:h-[60vh] lg:h-[80vh] xl:h-[100vh]'>
         <Image
           src={OriginalProduct}
           alt='original sneakers image'
@@ -11,7 +11,7 @@ const OriginalProducts = () => {
           objectFit='cover'
         />
       </div>
-      <div className='flex-1 w-full min-h-[50vh] md:h-[60vh] lg:h-[80vh]  flex flex-col  items-start justify-center px-16 md:px-24 space-y-4 bg-[#F1F1F1]'>
+      <div className='flex-1 w-full min-h-[50vh] md:h-[60vh] lg:h-[80vh]  xl:h-[100vh]  flex flex-col  items-start justify-center px-16 md:px-24 space-y-4 bg-[#F1F1F1]'>
         <p className='text-4xl md:text-5xl font-[Darker Grotesque] font-bold md:space-x-2'>
           Des produits neufs et authentiques
         </p>

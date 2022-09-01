@@ -8,6 +8,7 @@ import Brands from "../components/Brands";
 import Reviews from "../components/Reviews";
 import Articles from "../components/Articles";
 import OriginalProducts from "../components/OriginalProducts";
+import BestSellers from "../components/BestSellers";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Reviews />
       <Articles />
       <OriginalProducts />
+      <BestSellers />
     </div>
   );
 }
