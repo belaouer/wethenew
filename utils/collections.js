@@ -163,11 +163,44 @@ const articles = [
 ];
 
 const cards = [
-  { id: 1, title: "Nos contacter", text: "Écrivez-nous : help@wethenew.com" },
-  { id: 2, title: "En savoir plus", text: "Concept" },
-  { id: 3, title: "Trouvez votre produit", text: "Rechrche" },
-  { id: 4, title: "Services", text: "Wethenew Family" },
-  { id: 5, title: "Devise", text: "EUR" },
+  { id: 1, title: "Nos contacter", text: ["Écrivez-nous : help@wethenew.com"] },
+  {
+    id: 2,
+    title: "En savoir plus",
+    text: [
+      "Concept",
+      "Mentions Légales",
+      "Politique de Confidentialité",
+      "CGU",
+      "CGV",
+    ],
+  },
+  {
+    id: 3,
+    title: "Trouvez votre produit",
+    text: [
+      "Rechrche",
+      "Sneakers Femme",
+      "Sneakers Homme",
+      "Sneakers éco-responsables",
+      "Moins de 300€",
+      "Prochaines Sorties",
+      "Carte Cadeau",
+    ],
+  },
+  {
+    id: 4,
+    title: "Services",
+    text: [
+      "Wethenew Family",
+      "Envoi & livraison",
+      "Échanges & Remboursements",
+      "Vendez vos produits",
+      "Authenticité & FAQ",
+      "Recrutement",
+    ],
+  },
+  { id: 5, title: "Devise", text: ["EUR"] },
 ];
 export {
   collections,
